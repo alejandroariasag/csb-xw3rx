@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- GitHub URL: https://github.com/alejandroariasag/csb-xw3rx
+- Live Site URL: https://alejandroariasag.github.io/csb-xw3rx/
 
 ## My process
 
