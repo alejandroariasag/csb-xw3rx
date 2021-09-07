@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./images/mobile.jpeg)
+![Screenshot](https://github.com/alejandroariasag/csb-xw3rx/blob/gh-pages/images/mobile.jpeg?raw=true)
 
 ### Links
 
