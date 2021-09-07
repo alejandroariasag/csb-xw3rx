@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+:root {
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  color: var(--desaturated-dark-blue);
+
+  background-color: var(--light-grayish-blue);
+}
+
+h1 {
+  color: var(--very-dark-grayish-blue);
+  font-size: 20px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image {
+  background-image: url("images/drawers.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__text {
+  padding: 30px;
+
+  background-color: white;
+}
+
+.share {
+  background-color: white;
+  border-radius: 0 0 18px 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 66px;
+  padding: 30px;
+}
+
+.share-blue {
+  background-color: var(--very-dark-grayish-blue);
+}
+
+.share__mobile {
+  display: flex;
+}
+.share__mobile-invisible {
+  display: none;
+}
+.share__mobile_tooltip {
+  display: none;
+}
+.share__mobile_tooltip-visible {
+  display: inherit;
+}
+.share__mobile_tooltip-visible i {
+  margin-left: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.share__photo span {
+  background-image: url("images/avatar-michelle.jpg");
+  background-size: cover;
+  border-radius: 50%;
+
+  display: block;
+  width: 55px;
+  height: 55px;
+}
+
+.share__name {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-betweek;
+
+  width: 100%;
+
+  padding-left: 20px;
+}
+
+.share__name span {
+  font-weight: normal;
+  color: var(--grayish-blue);
+}
+
+.fa-circle {
+  color: var(--light-grayish-blue);
+}
+
+i.fa-share {
+  color: var(--desaturated-dark-blue);
+  cursor: pointer;
+}
+
+.tooltip .tooltip__content {
+  visibility: hidden;
+}
+
+@media (min-width: 769px) {
+  /* big landscape tablets, laptops, and desktops */
+  .container {
+    width: 800px;
+  }
+  .card {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .card__image {
+    height: auto;
+    border-radius: 18px 0 0 18px;
+  }
+
+  .card__text {
+    border-radius: 0 18px 0px 0;
+  }
+
+  .share {
+    border-radius: 0 0px 18px 0;
+  }
+
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Tooltip text */
+  .tooltip .tooltip__content {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--very-dark-grayish-blue);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    bottom: 130%;
+    left: 50%;
+    margin-left: -100px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  }
+
+  .tooltip .tooltip__content::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--very-dark-grayish-blue) transparent transparent
+      transparent;
+  }
+
+  .fab {
+    margin-left: 10px;
+  }
+
+  /* Show the tooltip content when clicked (js) */
+  .tooltip__content-visible {
+    visibility: visible !important;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltip__content {
+    visibility: visible;
+  }
+}
