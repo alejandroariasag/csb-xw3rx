@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/alejandroariasag/csb-xw3rx/blob/gh-pages/images/mobile.jpeg?raw=true)
+![Screenshot](https://github.com/aleckbeu/Article-preview-component/blob/gh-pages/images/mobile.jpeg?raw=true)
 
 ### Links
 
-- GitHub URL: https://github.com/alejandroariasag/csb-xw3rx
-- Live Site URL: https://alejandroariasag.github.io/csb-xw3rx/
+- GitHub URL: https://github.com/aleckbeu/Article-preview-component
+- Live Site URL: https://aleckbeu.github.io/Article-preview-component/
 
 ## My process
 
@@ -46,4 +46,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [The Quiff Republic](https://www.thequiffrepublic.com)
+- Website - [Aleckbeu](https://www.aleckbeu.com)
