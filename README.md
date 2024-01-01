@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/aleckbeu/Article-preview-component/blob/gh-pages/images/mobile.jpeg?raw=true)
+![Screenshot](https://github.com/swckd/Article-preview-component/blob/gh-pages/images/mobile.jpeg?raw=true)
 
 ### Links
 
-- GitHub URL: https://github.com/aleckbeu/Article-preview-component
-- Live Site URL: https://aleckbeu.github.io/Article-preview-component/
+- GitHub URL: https://github.com/swckd/Article-preview-component
+- Live Site URL: https://swckd.github.io/Article-preview-component/
 
 ## My process
 
@@ -46,4 +46,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Aleckbeu](https://www.aleckbeu.com)
+- Website - 
